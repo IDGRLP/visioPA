@@ -1,0 +1,66 @@
+/* Font */
+* { font-family: 'helvetica'; }
+
+/* wellPanel */
+.well {
+  background-color: #FFFFFF;
+}
+
+/* Position of Notification */
+#shiny-notification-panel {
+  top: 120px;
+  bottom: unset;
+  left: 0;
+  right: unset;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  max-width: 600px;
+  text-align: center;
+  font-size: 14px;
+}
+
+/* Notification message */
+.shiny-notification-message {
+  color: black;
+  background-color: #EC7563;
+  border: 1px solid black;
+}
+
+/* Notification close button */
+.shiny-notification-close {
+  float: right;
+  font-weight: bold;
+  font-size: 18px;
+  bottom: 9px;
+  position: relative;
+  padding-left: 4px;
+  color: black;
+  cursor: default;
+}
+
+/* selectInput */
+.shiny-input-container {margin-top: 30px;}
+
+/* control overflow of vis-items */
+.vis-item .vis-item-overflow {
+  overflow: visible;
+}
+
+.vis-item {
+  background-color: #6ec6cf;
+  border-color: black;
+  color: black;
+}
+
+.vis-item.vis-range {
+  background-color: #c1e3e8;
+  border-color: black;
+  color: black;
+}
+
+
+.vis-item.vis-selected {
+  background-color: #f08574;
+  border-color: black;
+}
